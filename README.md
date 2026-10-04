@@ -2,7 +2,7 @@
 
 Format-Guard adalah aplikasi web untuk memeriksa dan merapikan format dokumen Word (`.docx`). Dokumen diproses di browser pengguna; file tidak dikirim ke server Format-Guard. Tidak ada akun atau basis data yang diperlukan.
 
-**Demo:** https://format-guard.duhaalulbariq.chatgpt.site/
+**Demo:** https://duhaalul.github.io/Format-Guard/
 
 ## Fitur
 
