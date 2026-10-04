@@ -20,10 +20,10 @@ Profil bawaan saat ini bernama **Standar Universitas Andalas**. Nilainya: margin
 Tidak ada proses build atau instalasi paket. Jalankan server HTTP statis dari direktori proyek:
 
 ```powershell
-python -m http.server 8765 --directory dist
+python -m http.server 8765
 ```
 
-Buka `http://localhost:8765/` di browser. Gunakan server HTTP karena aplikasi memakai modul JavaScript; membuka `dist/index.html` melalui `file://` dapat membuat modul gagal dimuat.
+Buka `http://localhost:8765/` di browser. Gunakan server HTTP karena aplikasi memakai modul JavaScript; membuka `index.html` melalui `file://` dapat membuat modul gagal dimuat.
 
 ## Cara mencoba
 
@@ -37,12 +37,12 @@ Buka `http://localhost:8765/` di browser. Gunakan server HTTP karena aplikasi me
 
 | Berkas | Fungsi |
 | --- | --- |
-| `dist/index.html` | Halaman dan alur antarmuka |
-| `dist/styles.css` | Tampilan responsif |
-| `dist/app.js` | Interaksi, laporan, dan unduhan |
-| `dist/docx.js` | Audit dan perbaikan XML DOCX |
-| `dist/vendor/jszip.min.js` | Pembacaan dan penulisan paket DOCX |
-| `dist/vendor/LICENSE.markdown` | Lisensi JSZip |
+| `index.html` | Halaman dan alur antarmuka |
+| `styles.css` | Tampilan responsif |
+| `app.js` | Interaksi, laporan, dan unduhan |
+| `docx.js` | Audit dan perbaikan XML DOCX |
+| `jszip.min.js` | Pembacaan dan penulisan paket DOCX |
+| `LICENSE-JSZip.md` | Lisensi JSZip |
 
 Aplikasi saat ini menggunakan JavaScript di browser dan JSZip. Rancangan awal pernah menyebut backend Python/FastAPI, tetapi implementasi MVP ini sengaja berjalan tanpa backend agar dokumen tetap di perangkat pengguna.
 
@@ -57,4 +57,4 @@ Aplikasi saat ini menggunakan JavaScript di browser dan JSZip. Rancangan awal pe
 
 ## Lisensi dependensi
 
-JSZip disertakan bersama berkas lisensinya di `dist/vendor/LICENSE.markdown`.
+JSZip disertakan bersama berkas lisensinya di `LICENSE-JSZip.md`.
