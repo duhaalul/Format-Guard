@@ -1,0 +1,6 @@
+{
+  "name": "format-guard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Pemeriksa dan perapih format DOCX yang berjalan di browser"
+}
